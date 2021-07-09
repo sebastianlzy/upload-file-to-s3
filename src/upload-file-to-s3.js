@@ -1,4 +1,3 @@
-const getPutS3PresignedUrl = require('./getPutS3PresignedUrl')
 const fetch = require('node-fetch')
 const {createReadStream, statSync} = require('fs')
 
