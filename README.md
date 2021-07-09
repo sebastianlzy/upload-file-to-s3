@@ -14,8 +14,10 @@ upload file to s3
 2. As a user, I will want to use the generated pre-signed URL to upload my data into the S3 bucket
 
 # Commands
-1. Generate pre-signed url to upload file to S3
-  1. upload-file-to-s3 -p -n=<file name> -b=<s3 bucket name>
-2. Upload file to S3 using a pre-signed URL
-  1. upload-file-to-s3 -u=<pre-signed URL> -f=<file path>
+
+## Generate pre-signed url to upload file to S3
+  `upload-file-to-s3 -p -n=<file name> -b=<s3 bucket name>`
+
+## Upload file to S3 using a pre-signed URL
+   `upload-file-to-s3 -u=<pre-signed URL> -f=<file path>`
 
