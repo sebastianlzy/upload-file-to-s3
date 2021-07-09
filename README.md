@@ -21,7 +21,7 @@ npm install -g upload-file-to-s3
 
 # Commands
 
-## Generate pre-signed url to upload file to S3
+## Generate a pre-signed url to upload file to S3
 ```
   > upload-file-to-s3 -p -n=<file name> -b=<s3 bucket name>
 ```
