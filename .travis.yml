@@ -1,7 +1,17 @@
 language: node_js
 node_js:
-  - 14
+- 14
 install:
-  - npm install
+- npm install
 script:
-  - npm run test
+- npm run test
+deploy:
+  provider: npm
+  email: sebastian.lzy@gmail.com
+  api_key:
+    secure: HMP4AAn5lhwawytuteYOWcMb5Ryulbx0qbV5JyfqAUYJ4x+m/u3vUx20g8W+QEO0GVRkDBtznANt8ssDSjTNtxjuWWWtcVerHcV+evlEh2U4Nj2ZjwrfhEcyS53LPOsXieIliMXdTJ4qgGGmA0rUvSBq1SlKUFIe+SkG15xDdi+Bn4l9ERCILn2UxMj9LShsOrn9I7gvzMFQTfOn0FSXljwVoNhplzMdBhBIL5LCROrFNQvsUa9fq0dYCDrHFbA15XJcZLxcUe7ZkDMXKj/au2nvJdLK3DrpvPQkzLEpMj5mQIT+u/ichVP76X+E5uRJm73WH/TlQp8S079xlF6Pg82iBdS9UcAwY7ehbpe0Rk38r7RbH96b5DdTsQq5FNivgOzRH7MjWE3ELjRPFrFv0N+t3oly9OR9gRIgT4iyfxG0I95/Ma/kAxJ2sdn+YhoFhhpRdbv/q1VMA/ZV5tGEDwNWNK3wL1KOKHDKI+smkEMvP3FXAkZ0Ht2uTb7opCmW5pdvTEorsjiSBfa0CPSwcMZRL2Z8SdPh7SiDRDGXUsGnz/IgZHv4tpyFh0KX5jLrAR7Q9J3LkRGPTakDplgjD8d7fnzwtalkG8fg1nvSQ0m+jX7EzB0UHLWZeihlno5bl5GzQDqzO55udrB8mIkaGMa8SIGzdxgRhp+Hs1lRa0s=
+  on:
+    tags: true
+    repo: sebastianlzy/upload-file-to-s3
+    branch: main
+  skip_cleanup: 'true'
