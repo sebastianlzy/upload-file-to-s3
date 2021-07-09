@@ -25,7 +25,10 @@
   ],
   "homepage": "https://github.com/sebastianlzy/upload-file-to-s3",
   "keywords": [
-    "oclif"
+    "upload files",
+    "amazon s3",
+    "s3",
+    "pre-signed URL"
   ],
   "license": "MIT",
   "main": "src/index.js",
