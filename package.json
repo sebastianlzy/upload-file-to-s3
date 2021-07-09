@@ -1,7 +1,7 @@
 {
   "name": "upload-file-to-s3",
   "description": "upload file to s3",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "author": "sebastian",
   "bin": {
     "upload-file-to-s3": "./bin/run"
