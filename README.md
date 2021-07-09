@@ -4,8 +4,8 @@ upload-file-to-s3
 upload file to s3
 
 [![Version](https://img.shields.io/npm/v/upload-file-to-s3.svg)](https://npmjs.org/package/upload-file-to-s3)
-[![Downloads/week](https://img.shields.io/npm/dw/upload-file-to-s3.svg)](https://npmjs.org/package/upload-file-to-s3)
-[![License](https://img.shields.io/npm/l/upload-file-to-s3.svg)](https://github.com/sebastianlzy/upload-file-to-s3/blob/main/package.json)
+[![Downloads/week](https://img.shields.io/npm/dw/upload-file-to-s3)](https://npmjs.org/package/upload-file-to-s3)
+[![License](https://img.shields.io/npm/l/upload-file-to-s3)](https://github.com/sebastianlzy/upload-file-to-s3/blob/main/package.json)
 
 # Installation
 
