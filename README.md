@@ -7,6 +7,11 @@ upload file to s3
 [![Downloads/week](https://img.shields.io/npm/dw/upload-file-to-s3)](https://npmjs.org/package/upload-file-to-s3)
 [![License](https://img.shields.io/npm/l/upload-file-to-s3)](https://github.com/sebastianlzy/upload-file-to-s3/blob/main/package.json)
 [![Build](https://api.travis-ci.com/sebastianlzy/upload-file-to-s3.svg?branch=main&status=passed)](https://api.travis-ci.com/sebastianlzy/upload-file-to-s3.svg?branch=main&status=passed)
+# Prerequisite
+
+1. AWS configuration and credential setup - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
+
+
 # Installation
 
 ```
