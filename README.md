@@ -20,4 +20,3 @@ upload file to s3
 
 ## Upload file to S3 using a pre-signed URL
    `upload-file-to-s3 -u=<pre-signed URL> -f=<file path>`
-
