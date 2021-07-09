@@ -8,25 +8,14 @@ upload file to s3
 [![Downloads/week](https://img.shields.io/npm/dw/upload-file-to-s3.svg)](https://npmjs.org/package/upload-file-to-s3)
 [![License](https://img.shields.io/npm/l/upload-file-to-s3.svg)](https://github.com/sebastianlzy/upload-file-to-s3/blob/master/package.json)
 
-<!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
-# Usage
-<!-- usage -->
-```sh-session
-$ npm install -g upload-file-to-s3
-$ upload-file-to-s3 COMMAND
-running command...
-$ upload-file-to-s3 (-v|--version|version)
-upload-file-to-s3/0.0.0 darwin-x64 node-v14.17.0
-$ upload-file-to-s3 --help [COMMAND]
-USAGE
-  $ upload-file-to-s3 COMMAND
-...
-```
-<!-- usagestop -->
-# Commands
-<!-- commands -->
 
-<!-- commandsstop -->
+# Usage
+1. As an AWS account owner, I will want to generate a pre-signed URL that I can pass to my team members to upload file to my S3 bucket
+2. As a user, I will want to use the generated pre-signed URL to upload my data into the S3 bucket
+
+# Commands
+1. Generate pre-signed url to upload file to S3
+  1. upload-file-to-s3 -p -n=<file name> -b=<s3 bucket name>
+2. Upload file to S3 using a pre-signed URL
+  1. upload-file-to-s3 -u=<pre-signed URL> -f=<file path>
+
