@@ -23,9 +23,12 @@ npm install -g upload-file-to-s3
 ## Generate a pre-signed url to upload file to S3
 ```
   > upload-file-to-s3 -p -n=<file name> -b=<s3 bucket name>
+  Generating pre-signed url for uploading image.png to S3... generated
+  https://my-ecommerce.s3.ap-southeast-1.amazonaws.com/image.png?X-Amz-Algorithm=A.....
 ```
 
 ## Upload file to S3 using a pre-signed URL
  ```
  > upload-file-to-s3 -u="<pre-signed URL>" -f="<file path>"
+ Uploading /usr/home/image.png to S3... uploaded
  ```
