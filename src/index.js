@@ -30,17 +30,17 @@ class UploadFileToS3Command extends Command {
   }
 }
 
-UploadFileToS3Command.description = `To upload file to S3 asdasd
+UploadFileToS3Command.description = `To upload file to S3
 
-# Usage
-1. As an AWS account owner, I will want to generate a pre-signed URL that I can pass to my team members to upload file to my S3 bucket
-2. As a user, I will want to use the generated pre-signed URL to upload my data into the S3 bucket
+1. As an AWS account owner, I will want to generate a pre-signed URL
+   so that I can pass to my team members to upload file to my S3 bucket
 
-# Commands
-1. Generate pre-signed url to upload file to S3
-    1. upload-file-to-s3 -p -n=<file name> -b=<s3 bucket name>
-2. Upload file to S3 using a pre-signed URL
-    1. upload-file-to-s3 -u=<pre-signed URL> -f=<file path>
+   i.e. upload-file-to-s3 -p -n=<file name> -b=<S3 bucket name>
+
+2. As a user, I will want to use the generated pre-signed URL to upload
+   my data into the S3 bucket
+
+  i.e. upload-file-to-s3 -u=<pre-signed URL> -f=<file path>
 `
 
 UploadFileToS3Command.flags = {
